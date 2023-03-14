@@ -7,6 +7,9 @@
     "start": "nodemon --watch backend --exec babel-node backend/server.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+   "engines": {
+    "node": "16.17.0"
+  },
   "author": "Amaan & Adnan",
   "license": "ISC",
   "dependencies": {
