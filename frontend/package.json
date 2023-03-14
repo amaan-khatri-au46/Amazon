@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "webpack-dev-server --watch-content-base --open",
+    "build": "webpack --mode=production --output ./main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amaan & Adnan",
+  "author": "Amaan",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.43.0",
